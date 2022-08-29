@@ -17,4 +17,4 @@ class Solution:
             return ""
         for i in reversed(romans.keys()):
             if num >= i:
-                return romans[i] + str(self.intToRoman(num-i))
+                return romans[i] + self.intToRoman(num-i)
